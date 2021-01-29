@@ -1,15 +1,11 @@
 package com.khaleeqjava.GitPractise;
 
-/**
- * Hello world!
- *
- */
 public class App {
 
 	public void addData(String data) {
 		System.out.println("Data  =" + data);
-		if (data.equals("Khaleeq")) {
-			System.out.println("Khaleeq");
+		if (data.equals(Constant.DATA_TYPE)) {
+			System.out.println("Wellcome Khaleeq");
 		}
 	}
 
